@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none; 
+}
+
+body {
+    background-color: palevioletred;
+}
+
+button {
+    background: black;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 6px 15px;
+    border-radius: 10px;
+    border: 1px solid orangered;
+    cursor: pointer;
+}
+
+button:hover {
+    background: aliceblue;
+    color: black;
+}
+
+ol {
+    list-style-type: url(star.svg);
+}
+
+
+.circle {
+    width: 95px;
+    height: 85px;
+    border-radius: 49%;
+    overflow: hidden;
+}
+.bg{ 
+    width: 100px; 
+    background-color: black; 
+    padding: 5px; 
+} 
+
+.light{ 
+    height: 100px; 
+    width: 100px; 
+    border-radius: 50%; 
+} 
+.red{ 
+    background-color: red; 
+} .yellow{ 
+    background-color: yellow; 
+} .green{ 
+    background-color: green; 
+}
