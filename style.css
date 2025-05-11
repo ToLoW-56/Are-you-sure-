@@ -50,3 +50,10 @@ ol {
 } .green{ 
     background-color: green; 
 }
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
